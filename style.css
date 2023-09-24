@@ -9,6 +9,7 @@
 
 .main {
   background-image: url("background.svg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   display: flex;
@@ -84,13 +85,5 @@
   }
   .main {
     background-image: url("MOBILE.png");
-    background-size: cover;
-  }
-}
-
-@media (max-width: 400px){
-  .main {
-    background-image: url("MOBILE2.png");
-    background-size: cover;
   }
 }
